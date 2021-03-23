@@ -9,34 +9,50 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet"  href="./dist/css/main.min.css">
     </head>
   <body>
     
       <header class="header" > 
         <div class="container page-header">
           <nav class="nav-links  main-nav">
-            <a href="/" class="logotype"> <span class="accent">Web</span>Studio</a>
+             <a class="logotype" href="/">
+               <span class="logotype__accent">Web</span>
+               Studio</a>
            
-            <ul class="page-links list">
-              <li class="item"> <a class="links current" href="index.html" > Студия </a> </li>
-              <li class="item"> <a class="links" href="./portfolio.html" > Портфолио </a> </li>
-              <li class="item"> <a class="links" href="#contacts" > Контакты </a>  </li>
+            <ul class="set-pages list">
+
+              <li class="set-pages__item"> 
+                <a class="set-pages__links  set-pages__links--current" 
+                   href="index.html" >
+                    Студия </a></li>
+
+              <li class="set-pages__item"> 
+                <a class="set-pages__links" 
+                   href="./portfolio.html" > 
+                    Портфолио </a></li>
+
+              <li class="set-pages__item"> 
+                <a class="set-pages__links" 
+                   href="#contacts" > 
+                    Контакты </a></li>
             </ul> 
 
           </nav>
 
             <ul class="contact-links list">
-              <li class="item">
-                <a class="links" href="mailto:info@devstudio.com">
-                <svg class="links-mail-svg">
+
+              <li class="contact-links__item">
+                <a class="contact-links__links" href="mailto:info@devstudio.com">
+                <svg class="contact-links__mail-svg">
                   <use href="./img/icons.svg#icon-envelope"></use>
                 </svg>
                   info@devstudio.com</a>
               </li>
 
-              <li class="item">
-                <a class="links" href="tel:+380961111111">
-                  <svg class="links-tel-svg">
+              <li class="contact-links__item">
+                <a class="contact-links__links" href="tel:+380961111111">
+                  <svg class="contact-links__tel-svg">
                     <use href="./img/icons.svg#icon-smartphone"></use>
                   </svg>
                   +38 096 111 11 11</a> 
@@ -376,8 +392,9 @@
          
         <div class="container-footer">
           
-          <a href="/" class="footer-logo">
-             <span class="accent">Web</span>Studio</a>
+          <a href="/" class="logotype logotype--inverse 
+           container-footer__logotype">
+             <span class="logotype__accent">Web</span>Studio</a>
         
         <address id="contacts" > 
           
