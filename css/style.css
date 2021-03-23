@@ -88,6 +88,7 @@ img {
 }
 
 .logotype {
+  display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -260,7 +261,7 @@ img {
   margin: 0 auto;
 } 
 
-.container-hero {
+.hero-container {
   padding: 200px 15px;
 
   max-width: 1600px;
@@ -288,6 +289,8 @@ img {
   padding: 10px 32px;
   border-radius: 4px;
 }
+
+/* модалка */
 
 .backdrop {
   position: fixed;
@@ -353,7 +356,7 @@ img {
   color: var(--blue-active);
 }
 
-.close-black {
+.modal-button__close {
   width: 18px;
   height: 18px;
   top: 3px;
@@ -382,7 +385,7 @@ img {
   position: relative;
 }
 
-.form-filed-name {
+.form-filed__name {
   font-family: Roboto;
   font-style: normal;
   font-weight: 400;
@@ -393,32 +396,26 @@ img {
   letter-spacing: 0.01em;
 }
 
-.data-form {
+.form-field__input {
   height: 40px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   padding-left: 40px;
 }
 
-
-.form-field:hover .data-form,
-.form-field:hover .svg-data-form {
+.form-field__input:hover,
+.form-field__input:focus,
+.form-field__svg:hover {
   fill: var(--blue-active);
   border-color: var(--blue-active);
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.data-form:focus .form-field {
-  border-color: var(--blue-active);
-}
-
-.svg-data-form {
+.form-field__svg {
   position: absolute;
   top: 50%;
-}
 
- .form-field > .svg-data-form {
   left: 12px;
   fill: var(--black-text);
 }
