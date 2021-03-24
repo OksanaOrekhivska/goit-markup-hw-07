@@ -412,11 +412,18 @@ img {
   padding-left: 40px;
 }
 
-.form-field__input:hover,
-.form-field__input:focus,
-.form-field__svg {
+.form-field__input:hover, 
+.form-field__input:focus {
   fill: var(--blue-active);
   border-color: var(--blue-active);
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-field__input:focus,
+ .form-field__input:hover+.form-field__svg {
+   outline: none;
+  fill: var(--blue-active);
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -461,6 +468,7 @@ img {
 .form-field__textarea:hover,
 .form-field__textarea:focus {
   border: 1px solid var(--blue-active);
+  outline: none;
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
@@ -773,14 +781,12 @@ textarea {
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  color: var(--snw)
+  color: var(--snw);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.social-networks__link {
-  color: var(--snw);
-  
-}
-  
 .social-networks__link:hover,
 .social-networks__link:focus {
   background-color: var(--blue-active);
@@ -800,11 +806,6 @@ textarea {
   margin-top: 16px;
 }
 
-.social-networks__link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .social-networks__svg {
   width: 20px;
@@ -898,6 +899,7 @@ textarea {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  display: block;
 }
 
 .contact-footer__meil {
@@ -970,6 +972,10 @@ textarea {
   font-style: normal;
 }
 
+.form-footer__input:focus {
+  outline: none;
+}
+
 .form-footer___button {
   width: 200px;
   height: 50px;
@@ -990,7 +996,6 @@ textarea {
 }
 
 .form-footer__svg {
-  
   width: 24px;
   height: 24px;
   fill: var(--white);
@@ -1181,40 +1186,10 @@ textarea {
 .portfolio-cards-link:focus .portfolio-cards-overlay {
   transform: translateY(0); 
   opacity: 1;
+
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
 /* ПІДВАЛ*/
-
-.contacts {
-  display: block;
-}
-
-
-.address {
-  margin-bottom: 9px;
-}
-
-.contact-links-footer {
-  display: block;
-}
-
-.contact-meil {
-  margin-bottom: 9px ;
-}
-
-.contact-links-footer {
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-}
-  
-.contact-links-footer .contact-l {
-  color: var(--black-light); 
-}
-  
-.contact-links-footer .contact-l:hover,
-.contact-links-footer .contact-l:focus {
-  color: var(--blue-active);
-}
