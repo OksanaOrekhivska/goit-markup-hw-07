@@ -252,68 +252,95 @@
 
     <footer class="footer">
 
-        <div class="container">
+      <div class="container  footer--container">
+         
+        <div class="box-footer">
           
-         <div class="container-footer">
+          <a href="/" class="logotype logotype--inverse 
+           container-footer__logotype">
+             <span class="logotype__accent">Web</span>Studio</a>
+        
+         <address id="contacts" class="address-box"> 
+          
+          <p class="address-box__street">г. Киев, пр-т Леси Украинки, 26   </p> 
 
-          <a href="/" class="logotype logotype--inverse">
-            <span class="logotype__accent"> Web</span>Studio</a>
-       
-         <address id="contacts" >
-           
-           <p class="address">г. Киев, пр-т Леси Украинки, 26   </p> 
-           <ul class="contact-links-footer">
-            <li class="contact-meil"><a class="contact-l" href="mailto:info@example.com ">info@example.com  </a> </li> 
-            <li><a class="contact-l" href="tel:+380991111111">+38 099 111 11 11 </a> </li> 
-           </ul>
-         </address>
-         </div>
+          <ul class="contact-footer">
 
-         <div class="join-box">
+            <li class="contact-footer__meil">
+             <a class="contact-footer__link" 
+             href="mailto:info@example.com ">info@example.com 
+             </a> 
+            </li> 
 
-          <h3 class="join-title">ПРИСОЕДИНЯЙТЕСЬ </h3>
-
-          <ul class="element-svg-footer">
-
-            <li class="elements-snw">
-              <a class="link-svg-footer">
-                 <svg class="link-snw">
-                   <use href="./img/icons.svg#icon-instagram-2">
-                   </use>
-                 </svg>
-              </a>
-            </li>
-
-            <li class="elements-snw">
-              <a class="link-svg-footer">
-                <svg class="link-snw">
-                 <use href="./img/icons.svg#icon-twitter-1">
-                 </use>
-                </svg>
-              </a>
-            </li>
-
-            <li class="elements-snw">
-              <a class="link-svg-footer">
-                <svg class="link-snw">
-                 <use href="./img/icons.svg#icon-facebook-1">
-                 </use>
-                </svg>
-             </a>
-            </li>
-
-            <li class="elements-snw">
-              <a class="link-svg-footer">
-                <svg class="link-snw">
-                 <use href="./img/icons.svg#icon-linkedin-1">
-                 </use>
-                </svg>
-              </a>
-            </li>
+            <li contact-footer__tel>
+              <a class="contact-footer__link" 
+              href="tel:+380991111111">+38 099 111 11 11
+             </a> 
+            </li> 
           </ul>
+        </address>
         </div>
 
+        <div class="join-box">
+
+          <h3 class="join__title">ПРИСОЕДИНЯЙТЕСЬ </h3>
+
+          <ul class="social-networks">
+
+            <li class="social-networks__elements">
+              <a class="social-networks__link">
+                 <svg class="social-networks__svg">
+              <use href="./img/icons.svg#icon-instagram-2">
+              </use>
+            </svg></a></li>
+
+            <li class="social-networks__elements">
+              <a class="social-networks__link">
+                <svg class="social-networks__svg">
+              <use href="./img/icons.svg#icon-twitter-1">
+              </use>
+            </svg></a></li>
+
+            <li class="social-networks__elements">
+              <a class="social-networks__link">
+                <svg class="social-networks__svg">
+              <use href="./img/icons.svg#icon-facebook-1">
+              </use>
+            </svg></a></li>
+
+            <li class="social-networks__elements">
+              <a class="social-networks__link">
+                <svg class="social-networks__svg">
+              <use href="./img/icons.svg#icon-linkedin-1">
+              </use>
+            </svg></a></li>
+          </ul>
+
         </div>
+
+        <div class="box-form">
+          <h3 class="box-form__text">Подпишитесь на рассылку</h3>
+
+         <div class="form-footer">
+           
+          <form >
+            <input class="form-footer__input"  
+                   type="email" 
+                   name="mail" 
+                   placeholder="E-mail"/>
+          </form>
+  
+          <button class="form-footer___button" 
+                  type="submit">Подписаться
+
+           <svg class="form-footer__svg">
+             <use href="./img/icons.svg#icon-send"></use>
+           </svg> 
+          </button>
+         </div>
+         </div>
+       
+       </div>
         
     </footer>
     
