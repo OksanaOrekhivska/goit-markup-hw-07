@@ -414,7 +414,7 @@ img {
 
 .form-field__input:hover,
 .form-field__input:focus,
-.form-field__svg:hover {
+.form-field__svg {
   fill: var(--blue-active);
   border-color: var(--blue-active);
   transition-property: transform;
@@ -478,6 +478,7 @@ img {
 }
 
 .wrapper-checkbox__link {
+  display: block;
   color: var(--blue-active);
   text-decoration: underline;
 } 
