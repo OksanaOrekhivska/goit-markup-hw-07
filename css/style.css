@@ -68,13 +68,6 @@ button {
   padding-right: 15px;
 }
 
-.page-header {
-  width: 1200px;
-  padding: 0 15px;
- 
-  background-color: var(--hite);
-}
-
 /* ШАПКА*/
 
 .header {
@@ -84,7 +77,16 @@ button {
 .page-header {
   display: flex;
   align-items: center;
+
+  width: 1200px;
+  padding: 0 15px;
+ 
+  background-color: var(--white);
 } 
+
+.header--line {
+  border-bottom: 1px solid #ECECEC;
+}
 
 .main-nav {
   display: flex;
