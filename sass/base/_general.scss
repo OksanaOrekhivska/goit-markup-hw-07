@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+  
+  
+body { 
+  font-family: "Roboto", sans-serif;
+}
+    
+a {
+  text-decoration: none;
+}
+  
+  
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+  
+button {
+  border: 0px;
+}
+  
+.list {
+  padding: 0%;
+  margin: 0%;
+  list-style: none;
+}
+  
+  
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px ;
+  padding-right: 15px;
+}
