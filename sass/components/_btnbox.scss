@@ -1,0 +1,48 @@
+.btn-box {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+  
+.btn-box__element:last-child {
+  margin-right: 0px; 
+}
+  
+.btn-box__element {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  
+  margin-right: 8px;
+}
+  
+.btn-box__button {
+  color: $black-text;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  font-family: "Roboto", sans-serif;
+  
+  padding: 6px 22px;
+   
+  background-color: $bac-dark-grey;
+  border-radius: 4px;
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  border: 0px;
+}
+    
+.btn-box__button:hover,
+.btn-box__button:focus {
+  color: $white;
+  background-color: $blue-active;
+  border-radius: 4px;
+   
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    0px 1px 2px rgba(0, 0, 0, 0.8),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
