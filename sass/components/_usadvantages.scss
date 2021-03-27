@@ -1,0 +1,63 @@
+.container--advantages {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.set-info {
+  display: flex;
+  width: 1200px;
+  margin: 0 15px;
+}
+
+.set-info .list + .list {
+  margin-left: 30px;
+}
+
+.set-info > .list {
+  flex-basis: calc((100% - 90px) / 4);
+}
+
+.list__icons {
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bac-dark-grey;
+  margin-bottom: 30px;
+}
+
+.list__svg {
+  width: 70px;
+  height: 70px;
+  fill: currentColor;
+}
+
+.list__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $black-text;
+  margin-bottom: 10px;
+}
+  
+.list__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $black-light;
+}
