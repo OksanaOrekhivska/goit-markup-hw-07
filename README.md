@@ -265,10 +265,9 @@ button {
   max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../img/Img\ 17.jpg);
-   linear-gradient(to right,
+  background-image: linear-gradient(
   rgba(47, 48, 58, 0.4),
-  rgba(47, 48, 58, 0.4));
+  rgba(47, 48, 58, 0.4)), url("/img/Img\ 17.jpg");
   
   background-repeat: no-repeat;
   background-size: cover;
