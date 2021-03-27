@@ -106,7 +106,7 @@
   fill: $blue-active;
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+}
   
 .form-field__svg {
   position: absolute;
@@ -139,15 +139,17 @@
   font-size: 12px;
   line-height: 1.16px;
   color:rgba(117, 117, 117, 0.5);
+
+  &:hover,
+  &:focus {
+    border: 1px solid $blue-active;
+    outline: none;
+    transition-property: transform;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  }
 }
   
-.form-field__textarea:hover,
-.form-field__textarea:focus {
-  border: 1px solid $blue-active;
-  outline: none;
-  transition-property: transform;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-}
+
   
 .wrapper-checkbox__label {
   font-style: normal;
