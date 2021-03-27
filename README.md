@@ -621,7 +621,7 @@ textarea {
   color: var(--black-light);
 }
 
-/*наша робота*/
+/* наша робота */
 
 .container--our-work{
   padding-bottom: 94px;
