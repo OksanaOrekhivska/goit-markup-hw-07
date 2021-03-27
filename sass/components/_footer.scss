@@ -1,0 +1,140 @@
+.footer {
+  background-color: $background;
+}
+  
+.footer--container {
+  display: flex;
+  align-items: baseline;
+  
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+  
+.address-box__street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  color: $white;
+  margin-bottom: 9px;
+}
+  
+    
+.address-box__street:hover,
+.address-box__street:focus {
+  color: $blue-active;
+  
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.contact-footer {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  display: block;
+}
+  
+.contact-footer__meil {
+  margin-bottom: 9px;
+}
+    
+.contact-footer__link {
+  color: $white-text-op60;
+}
+  
+.contact-footer__link:hover,
+.contact-footer__link:focus {
+  color: $blue-active;
+  
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+  
+.join-box {
+  margin-left: 70px;
+}
+  
+.join__title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  font-style: normal;
+  color: $white;
+  margin-bottom: 20px;
+}
+  
+  
+.box-form {
+  margin-left: 93px;
+}
+  
+.box-form__text {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.17;
+  font-style: normal;
+  color: $white;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+  
+.form-footer {
+  display: flex;
+  align-items: center;
+}
+  
+.form-footer__input {
+  width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 30%);
+  background-color: $background;
+  
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+    
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  font-style: normal;
+}
+  
+.form-footer__input:focus {
+  outline: none;
+}
+  
+.form-footer___button {
+  width: 200px;
+  height: 50px;
+  border-radius: 4px;
+  color: var(--white);
+  background-color: $blue-active;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 15%);
+  
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  font-family: "Roboto", sans-serif;
+  
+  display: flex;
+  align-items: center;
+  padding-left: 29px;
+  margin-left: 10px;
+  border: 0px;
+}
+  
+  
+.form-footer__svg {
+  width: 24px;
+  height: 24px;
+  fill: $white;
+  top: 13px;
+  left: 28px;
+  margin-left: 10px;
+}
