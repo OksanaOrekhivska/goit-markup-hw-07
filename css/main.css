@@ -183,7 +183,7 @@ button {
   color: #757575;
 }
 
-.contact-links__link:hover, .contact-links__link:focus {
+.contact-links:hover, .contact-links:focus {
   color: #2196f3;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
@@ -210,4 +210,49 @@ button {
   fill: currentColor;
   margin-right: 10px;
 }
+
+.hero {
+  max-width: 1600px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.hero__container {
+  padding: 200px 15px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("/img/Img 17.jpg");
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/img/Img 17.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero__title {
+  width: 696px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  color: #ffffff;
+  text-align: center;
+}
+
+.hero__button {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #ffffff;
+  background-color: #2196f3;
+  outline: 0px;
+  padding: 10px 32px;
+  border-radius: 4px;
+}
+
 /*# sourceMappingURL=main.css.map */
