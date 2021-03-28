@@ -1,10 +1,7 @@
-
-.container {
-  &--our-work{
-    padding-bottom: 94px;
-  }
+.container--our-work{
+  padding-bottom: 94px;
 }
-  
+
 .our-work-title {
   font-style: normal;
   font-weight: 700;
@@ -15,51 +12,69 @@
 
   margin-bottom: 50px;
 }
-  
-  
+
 .box-our-work {
   margin: 0;
   list-style: none;
   display: flex;
   margin-left: -30px;
-
-  &__list  {
-    flex-basis: calc(100% / 3 - 30px); 
-    margin-left: 30px;
-    margin: 0;
-    position: relative;
-
-    &__card-thumb {
-      position: relative;
-      overflow: hidden;
-
-      .card-thumb-container {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        padding-top: 27px;
-        padding-bottom: 27px;
-        background-color: rgba(47, 48, 58, 0.8);
-        display: block;
-      } 
-    }
-  }
-
-  &__text {
-    text-align: center;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    color: $white;
-  }
 }
 
+.box-our-work > .box-our-work__list  {
+  flex-basis: calc(100% / 3 - 30px);
+
+  margin-left: 30px;
+}
+
+.box-our-work__list {
+  margin: 0;
+  position: relative;
+}
   
+.employee-name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  color: $black-text;
+}
+  
+.employee-position {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.18;
+  color: $black-light;
+}
+
+.card-thumb-container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+  background-color:  rgba(47, 48, 58, 0.8);
+  display: block;
+
+}
+
 .box-our-work__card-thumb {
-  .card-thumb-container {
-    position: absolute;
-  }
+  position: relative;
+  overflow: hidden;
 }
-  
- 
+
+.card-thumb-container > .box-our-work__text {
+  text-align: center;
+}
+
+.box-our-work__card-thumb > .card-thumb-container {
+  position: absolute;
+}
+
+.box-our-work__text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $white;
+}
