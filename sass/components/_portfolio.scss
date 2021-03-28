@@ -4,9 +4,10 @@
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+
+  &--portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
   
-.container--portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
