@@ -41,17 +41,17 @@
         padding-bottom: 27px;
         background-color: rgba(47, 48, 58, 0.8);
         display: block;
-
-        .box-our-work__text {
-          text-align: center;
-          font-style: normal;
-          font-weight: 700;
-          font-size: 14px;
-          line-height: 1.14;
-          color: $white;
-        }
       } 
     }
+  }
+
+  &__text {
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: $white;
   }
 }
 
