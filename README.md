@@ -295,8 +295,8 @@ button {
   top: 50%;
   left: 50%;
   padding: 40px;
-  min-height: 581px;
-  min-width: 528px;
+  max-height: 581px;
+  max-width: 528px;
 
   border-radius: 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -327,6 +327,7 @@ button {
   top: 8px;
   right: 8px;
   outline: 0px;
+  color: $black;
 }
 
 .modal-button:hover,
@@ -334,7 +335,7 @@ button {
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-  color: var(--blue-active);
+  color: $blue-active;
   outline: 0px;
 }
 
