@@ -18,29 +18,29 @@
 }
 
 .modal {
-  transform: translate(-50%, -50%) scale(1.2);
-}
-
-.modal {
   position: absolute;
   top: 50%;
   left: 50%;
   padding: 40px;
-  min-height: 581px;
-  min-width: 528px;
-  
+  max-height: 581px;
+  max-width: 528px;
+
   border-radius: 4px;
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),0px 1px 1px rgba(0, 0, 0, 0.14),0px 2px 1px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
   transform: translate(-50%, -50%) scale(1);
-  
+
+  transition-property: transform;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   background-color: $white;
-  
+
   padding-top: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
   padding-right: 40px;
 }
-  
+
 .modal-button {
   display: flex;
   justify-content: center;
@@ -54,9 +54,10 @@
   top: 8px;
   right: 8px;
   outline: 0px;
+  color: $black;
 
-  &:hover .modal-button__close,
-  &:focus .modal-button__close {
+  :hover,
+  :focus {
     transition-property: transform;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
@@ -64,26 +65,29 @@
     outline: 0px;
   }
 }
-  
+
+
 .modal-button__close {
   width: 18px;
   height: 18px;
   top: 3px;
   left: 4px;
-  fill: $black;
+  fill: currentColor;
+
 }
 
 .modal-title {
-  font-family: "Roboto", sans-serif ;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 1,15px;
-  color: $black-text;
+  color: var(--black-text);
   text-align: center;
   margin-bottom: 12px;
   letter-spacing: 0.03em;
 }
+
 
 .form-field {
   display: flex;
