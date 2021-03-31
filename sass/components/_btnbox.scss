@@ -1,9 +1,9 @@
-.btn-box {
+.filters__list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
 
-  &__element {
+  &__item {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -13,13 +13,13 @@
   }
 }
   
-.btn-box__element:last-child {
+.filters__item:last-child {
   margin-right: 0px; 
 }
   
 
   
-.btn-box__button {
+.filters__button {
   color: $black-text;
   font-weight: 500;
   font-size: 16px;
