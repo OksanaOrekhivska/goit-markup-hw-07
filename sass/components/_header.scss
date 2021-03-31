@@ -1,8 +1,12 @@
-.header {
+.page-header {
   background-color: $white;
 }
 
-.page-header {
+.page-header__nav {
+  display: flex;
+}
+
+.page-header__container {
   display: flex;
   align-items: center;
 
@@ -12,7 +16,7 @@
   background-color: $white;
 } 
 
-.header--line {
+.page-header--line {
   border-bottom: 1px solid #ECECEC;
 }
 
@@ -21,7 +25,7 @@
   align-items: center;
 }
 
-.logotype {
+.page-header__logo {
   display: block;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -30,13 +34,15 @@
   font-style: normal;
 
   color: $black;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logotype--inverse {
   color: $white;
 }
    
-.logotype__accent {
+.page-header__logo-accent {
   color: $blue-active;
 }
 
@@ -127,7 +133,6 @@
   &__link {
     display: flex;
     align-items: center;
-    margin-right: 50px;
     color: $black-light; 
 
     &:hover,
@@ -145,17 +150,10 @@
   }
 }
 
-.contact-links__mail-svg {
+.contact-links__icon {
   width: 16px;
   height: 16px;
   fill: currentColor;
   margin-right: 10px;
   
-}
-
-.contact-links__tel-svg {
-  width: 16px;
-  height: 16px;
-  fill: currentColor;
-  margin-right: 10px;
 }
