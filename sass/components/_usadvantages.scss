@@ -1,8 +1,6 @@
-.container {
-  &--advantages {
-    padding-top: 94px;
-    padding-bottom: 94px;
-  }
+.advancers__container {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .visually-hidden {
@@ -18,11 +16,10 @@
   overflow: hidden;
 }
 
-.set-info {
+.advancers__list {
   display: flex;
-  width: 1200px;
 
-  .list__icons {
+  .advancers__box {
     height: 120px;
     display: flex;
     align-items: center;
@@ -31,7 +28,7 @@
     margin-bottom: 30px;
   }
 
-  .list__svg {
+  .advancers__icon {
     width: 70px;
     height: 70px;
     fill: currentColor;
@@ -39,19 +36,19 @@
 
 }
 
-.set-info {
-  .list + .list {
+.advancers__list {
+  .advancers__item + .advancers__item {
     margin-left: 30px;
   }
 }
 
-.set-info {
-  .list {
+.advancers__list {
+  .advancers__item {
     flex-basis: calc((100% - 90px) / 4);
   }  
 }
 
-.list__title {
+.advancers__description {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -60,7 +57,7 @@
   margin-bottom: 10px;
 }
   
-.list__text {
+.advancers__text {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
