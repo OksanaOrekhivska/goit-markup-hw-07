@@ -1,4 +1,4 @@
-.card-filters {
+.progect-list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -10,7 +10,7 @@
   margin-left: -30px;
 }
   
-.card-filters__element {
+.progect__item {
   flex-basis: calc(100% / 3 - 30px);
   
   margin-left: 30px;
@@ -28,11 +28,11 @@
 }
   
 
-.card-filters__content {
+.progect-filters__content {
   padding: 30px 32px;
   border: 1px solid $border-col;
 
-  .card-filters__title {
+  .progect-filters__title {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -40,7 +40,7 @@
     color: $black-text;
   }
 
-  .card-filters__text{
+  .progect-filters__text{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -50,16 +50,16 @@
   }  
 }
     
-.card-filters__link {
+.progect__link {
   border-radius: 5px;
 }
   
-.card-filters__thumb {
+.progect__thumb {
   position: relative;
   overflow: hidden;
 }
     
-.card-filters__overlay{
+.progect-filters__overlay{
   position: absolute;
   top: 0;
   right: 0;
@@ -72,7 +72,7 @@
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
   
-.card-filters__actionstext {
+.progect-filters__actionstext {
   font-style: normal;
   font-weight: 400px;
   font-size: 18px;
@@ -82,8 +82,8 @@
   padding: 63px 24px;
 }
   
-.card-filters__link:hover .card-filters__overlay,
-.card-filters__link:focus .card-filters__overlay {
+.progect__link:hover .progect-filters__overlay,
+.progect__link:focus .progect-filters__overlay {
   transform: translateY(0); 
   opacity: 1;
   
