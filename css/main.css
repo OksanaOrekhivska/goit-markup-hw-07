@@ -729,7 +729,7 @@ textarea {
   color: #757575;
 }
 
-.team-social____link {
+.team-social__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -745,7 +745,7 @@ textarea {
           justify-content: center;
 }
 
-.team-social____link:hover, .team-social____link:focus {
+.team-social__link:hover, .team-social__link:focus {
   background-color: #2196f3;
   color: #ffffff;
   -webkit-transition-property: -webkit-transform;
@@ -770,7 +770,7 @@ textarea {
   margin-left: 10px;
 }
 
-.team-social____icon {
+.team-social__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
@@ -837,7 +837,7 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer {
+.page-footer {
   background-color: #2f303a;
 }
 
@@ -910,11 +910,11 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.join-box {
+.page-footer__social {
   margin-left: 70px;
 }
 
-.join__title {
+.page-footer__title {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -924,7 +924,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-.social-networks__link--white {
+.footer-social__link {
   width: 44px;
   height: 44px;
   border-radius: 50%;
@@ -938,9 +938,10 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.social-networks__link--white:hover, .social-networks__link--white:focus {
+.footer-social__link:hover, .footer-social__link:focus {
   background-color: #2196f3;
   color: #ffffff;
   -webkit-transition-property: -webkit-transform;
@@ -951,7 +952,7 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.social-networks {
+.footer-social__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -961,21 +962,21 @@ textarea {
   margin-top: 16px;
 }
 
-.social-networks .social-networks__elements + .social-networks__elements {
+.footer-social__list .footer-social__elements + .footer-social__elements {
   margin-left: 10px;
 }
 
-.social-networks__svg {
+.footer-social__icon {
   width: 20px;
   height: 20px;
   fill: currentColor;
 }
 
-.box-form {
+.page-footer__form {
   margin-left: 93px;
 }
 
-.box-form__text {
+.page-footer__text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -986,7 +987,7 @@ textarea {
   margin-bottom: 20px;
 }
 
-.form-footer {
+.page-footer__form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -995,7 +996,7 @@ textarea {
           align-items: center;
 }
 
-.form-footer__input {
+.page-footer__input {
   width: 358px;
   height: 50px;
   border-radius: 4px;
@@ -1015,11 +1016,11 @@ textarea {
   font-style: normal;
 }
 
-.form-footer__input__input:focus {
+.page-footer__input__input:focus {
   outline: none;
 }
 
-.form-footer___button {
+.page-footer___button {
   width: 200px;
   height: 50px;
   border-radius: 4px;
@@ -1040,7 +1041,7 @@ textarea {
   border: 0px;
 }
 
-.form-footer__svg {
+.page-footer__icon {
   width: 24px;
   height: 24px;
   fill: #ffffff;
@@ -1234,7 +1235,7 @@ textarea {
   padding-bottom: 94px;
 }
 
-.btn-box {
+.filters__list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1244,7 +1245,7 @@ textarea {
   margin-bottom: 50px;
 }
 
-.btn-box__element {
+.filters__list__item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1252,11 +1253,11 @@ textarea {
   margin-right: 8px;
 }
 
-.btn-box__element:last-child {
+.filters__item:last-child {
   margin-right: 0px;
 }
 
-.btn-box__button {
+.filters__button {
   color: #212121;
   font-weight: 500;
   font-size: 16px;
@@ -1274,7 +1275,7 @@ textarea {
   border: 0px;
 }
 
-.btn-box__button:hover, .btn-box__button:focus {
+.filters__button:hover, .filters__button:focus {
   color: #ffffff;
   background-color: #2196f3;
   border-radius: 4px;
