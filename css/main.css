@@ -55,9 +55,11 @@ ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 1200px;
-  padding: 0 15px;
   background-color: #ffffff;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .page-header--line {
@@ -854,7 +856,7 @@ textarea {
   color: #2196f3;
 }
 
-.footer--container {
+.page-footer__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -863,6 +865,10 @@ textarea {
           align-items: baseline;
   padding-top: 60px;
   padding-bottom: 60px;
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .address-box__street {
@@ -952,7 +958,7 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-social__list {
+.social-networks {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -962,7 +968,7 @@ textarea {
   margin-top: 16px;
 }
 
-.footer-social__list .footer-social__elements + .footer-social__elements {
+.social-networks .footer-social__elements + .footer-social__elements {
   margin-left: 10px;
 }
 
@@ -972,8 +978,17 @@ textarea {
   fill: currentColor;
 }
 
-.page-footer__form {
+.page-footer__box {
   margin-left: 93px;
+}
+
+.page-footer__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-footer__text {
@@ -985,15 +1000,6 @@ textarea {
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-
-.page-footer__form {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 .page-footer__input {
@@ -1245,7 +1251,7 @@ textarea {
   margin-bottom: 50px;
 }
 
-.filters__list__item {
+.filters__item {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1287,7 +1293,7 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-filters {
+.progect-list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -1300,14 +1306,14 @@ textarea {
   margin-left: -30px;
 }
 
-.card-filters__element {
+.progect__item {
   -ms-flex-preferred-size: calc(100% / 3 - 30px);
       flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
   margin-top: 30px;
 }
 
-.card-filters__element:hover, .card-filters__element:focus {
+.progect__item:hover, .progect__item:focus {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.6), 1px 4px 6px rgba(0, 0, 0, 0.16);
   -webkit-transition-property: -webkit-transform;
@@ -1318,12 +1324,12 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-filters__content {
+.progect-filters__content {
   padding: 30px 32px;
   border: 1px solid #EEEEEE;
 }
 
-.card-filters__content .card-filters__title {
+.progect-filters__content .progect-filters__title {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -1331,7 +1337,7 @@ textarea {
   color: #212121;
 }
 
-.card-filters__content .card-filters__text {
+.progect-filters__content .progect-filters__text {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -1340,16 +1346,16 @@ textarea {
   margin-top: 4px;
 }
 
-.card-filters__link {
+.progect__link {
   border-radius: 5px;
 }
 
-.card-filters__thumb {
+.progect__thumb {
   position: relative;
   overflow: hidden;
 }
 
-.card-filters__overlay {
+.progect-filters__overlay {
   position: absolute;
   top: 0;
   right: 0;
@@ -1366,7 +1372,7 @@ textarea {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.card-filters__actionstext {
+.progect-filters__actionstext {
   font-style: normal;
   font-weight: 400px;
   font-size: 18px;
@@ -1376,8 +1382,8 @@ textarea {
   padding: 63px 24px;
 }
 
-.card-filters__link:hover .card-filters__overlay,
-.card-filters__link:focus .card-filters__overlay {
+.progect__link:hover .progect-filters__overlay,
+.progect__link:focus .progect-filters__overlay {
   -webkit-transform: translateY(0);
           transform: translateY(0);
   opacity: 1;
