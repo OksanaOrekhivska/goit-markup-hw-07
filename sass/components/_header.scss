@@ -9,11 +9,12 @@
 .page-header__container {
   display: flex;
   align-items: center;
-
-  width: 1200px;
-  padding: 0 15px;
- 
   background-color: $white;
+
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px ;
+  padding-right: 15px;
 } 
 
 .page-header--line {
