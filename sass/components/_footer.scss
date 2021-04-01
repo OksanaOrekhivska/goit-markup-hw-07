@@ -15,12 +15,17 @@
   color: $blue-active;
 }
   
-.footer--container {
+.page-footer__container {
   display: flex;
   align-items: baseline;
   
   padding-top: 60px;
   padding-bottom: 60px;
+
+  max-width: 1200px;
+  margin: auto;
+  padding-left: 15px ;
+  padding-right: 15px;
 }
   
 .address-box__street {
@@ -99,14 +104,14 @@
   }
 }
 
-.footer-social__list {
+.social-networks {
   display: flex;
   align-items: center;
   margin-top: 16px;
 }
 
 
-.footer-social__list {
+.social-networks {
   .footer-social__elements + .footer-social__elements {
     margin-left: 10px;
   }
@@ -118,10 +123,19 @@
   fill: currentColor;
 }
   
-.page-footer__form {
+//форма розсилки
+
+.page-footer__box {
   margin-left: 93px;
 }
+
+.page-footer__form {
+  display: flex;
+  align-items: center;
   
+} 
+
+
 .page-footer__text {
   font-family: "Roboto", sans-serif;
   font-weight: 700;
@@ -131,11 +145,6 @@
   color: $white;
   text-transform: uppercase;
   margin-bottom: 20px;
-}
-  
-.page-footer__form {
-  display: flex;
-  align-items: center;
 }
   
 .page-footer__input {
