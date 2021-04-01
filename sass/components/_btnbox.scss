@@ -2,15 +2,15 @@
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+}
 
-  &__item {
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    
-    margin-right: 8px;
-  }
+.filters__item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  
+  margin-right: 8px;
 }
   
 .filters__item:last-child {
