@@ -104,21 +104,26 @@
   }
 }
   
-.set-pages__links {
-  position: relative; 
-  
+
+//.set-pages__links::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 4px;
+  background-color: var(--blue-active);
+  border-radius: 2px;
 }
   
 .set-pages__links--current::after {
-  position: relative; 
   content: "";
+  position: absolute;
   left: 0;
   bottom: 0;
   display: inline-block;
   width: 100%;
   height: 4px;
-  background-color: $blue-active;
-  border-radius: 2px;
+  background-color: var(--blue-active);
+  border-radius: 2px; 
 }
 
 .contact-links {
