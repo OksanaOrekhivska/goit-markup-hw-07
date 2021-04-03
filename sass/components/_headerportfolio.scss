@@ -113,7 +113,7 @@
 }
     
 .set-pages__links--current::after {
-  position: relative; 
+  position: absolute; 
   content: "";
   left: 0;
   bottom: 0;
