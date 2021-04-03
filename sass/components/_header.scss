@@ -88,14 +88,10 @@
     color: $blue-active;
   }
 }
-  
-.set-pages {
-  &__links {
-    color: $black-text;
-  }
-}
-  
+
 .set-pages__links {
+  color: $black-text;
+
   &:hover,
   &:focus {
     color: $blue-active;
@@ -104,15 +100,6 @@
   }
 }
   
-
-//.set-pages__links::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-  height: 4px;
-  background-color: var(--blue-active);
-  border-radius: 2px;
-}
   
 .set-pages__links--current::after {
   content: "";
