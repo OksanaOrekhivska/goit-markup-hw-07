@@ -1,9 +1,9 @@
-.container--our-customers {
+.container--customers {
   padding-top: 94px;
   padding-bottom: 94px;
 }
   
-.our-cust-title {
+.customers-title {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -13,7 +13,7 @@
   margin-bottom: 50px;
 }
   
-.customer-list {
+.customer__list {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,13 +21,13 @@
   padding: 0; 
 }
   
-.customer-list {
-  .customer-list__element + .customer-list__element {
+.customer__list {
+  .customer__item + .customer__item {
     margin-left: 30px;
   }
 }
   
-.customer-list__link {
+.customer__link {
   display: flex;
   align-items: center;
   justify-content: center;
