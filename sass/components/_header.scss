@@ -51,7 +51,7 @@
   margin-bottom: 20px;
 }
 
-.set-pages{
+.set-pages__list {
   display: flex;
   margin-left: 93px;
 
@@ -61,13 +61,13 @@
   line-height: 1.14;
 }
 
-.set-pages {
+.set-pages__list {
   &__item + &__item {
     margin-left: 50px;
   }
 }
 
-.set-pages {
+.set-pages__list {
   &__links {
     display: block;
     padding-top: 32px;
@@ -83,7 +83,7 @@
 }
 
   
-.set-pages {
+.set-pages__list {
   &--current {
     color: $blue-active;
   }
@@ -113,7 +113,7 @@
   border-radius: 2px; 
 }
 
-.contact-links {
+.contact-links__list {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -137,7 +137,7 @@
   }
 }
 
-.contact-links {
+.contact-links__list {
   &__item + &__item {
     margin-left: 50px;
   }
