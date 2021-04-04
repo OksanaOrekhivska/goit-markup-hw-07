@@ -32,11 +32,11 @@
 }
   
 
-.progect-filters__content {
+.progect__box {
   padding: 30px 32px;
   border: 1px solid $border-col;
 
-  .progect-filters__title {
+  .progect__title {
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
@@ -44,7 +44,7 @@
     color: $black-text;
   }
 
-  .progect-filters__text{
+  .progect__text{
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
