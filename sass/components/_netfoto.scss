@@ -1,4 +1,7 @@
+
+
 .progect-list {
+  
   padding: 0;
   margin: 0;
   list-style: none;
@@ -11,6 +14,7 @@
 }
   
 .progect__item {
+  
   flex-basis: calc(100% / 3 - 30px);
   
   margin-left: 30px;
@@ -57,6 +61,7 @@
 .progect__thumb {
   position: relative;
   overflow: hidden;
+ 
 }
     
 .progect-filters__overlay{
@@ -90,4 +95,3 @@
   transition-property: transform;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-  
